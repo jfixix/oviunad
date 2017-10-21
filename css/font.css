@@ -1,0 +1,12 @@
+@font-face{
+	font-family: "FGHeavy";
+	src: url(font/FGHeavy/Franklin-Gothic-Heavy.ttf) format("truetype");
+}
+@font-face{
+	font-family: "FGBook";
+	src: url(font/FGBook/Franklin-Gothic-Book.ttf) format("truetype");
+}
+@font-face{
+	font-family: "FGBookItalic";
+	src: url(font/FGBookItalic/Franklin-Gothic-Book-Italic.ttf) format("truetype");
+}

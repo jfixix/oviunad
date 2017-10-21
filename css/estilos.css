@@ -1,0 +1,155 @@
+/*
+Estilos para index.html
+*/
+
+/*
+Declaraciones generales
+*/
+
+a{
+	text-decoration: none;
+}
+
+li{
+	list-style: none;
+}
+
+body {
+	background: #F0B429;
+}
+
+
+/*
+Seccion header principal
+*/
+
+header {
+	width: 100%;
+	height: 50px;
+	background: #005883;
+}
+
+header nav {
+	position: relative;
+	width: 960px;
+	margin: auto;
+}
+
+header nav h1 {
+	font-family: "FGHeavy";
+	font-size: 30px;
+	padding: 5px;
+}
+
+header nav ul {
+	width: 520px;
+	float: right;
+	margin-top: -65px;
+}
+
+header nav ul li {
+	margin-top: 15px;
+	display: inline-block;
+}
+
+header nav ul li a{
+	color: #fff;
+	padding: 10px;
+	font-family: "FGBook";
+
+	transition: color .5s, background .5s;
+}
+
+header nav ul li a:hover{
+	background: #fff;
+	color: #005883;
+}
+
+/* 
+Seccion informacion general
+*/
+
+#sectionGeneral {
+	margin-top: 10px;
+	width: 100%;
+	height: 400px;
+	background: url("../img/security.jpeg") center fixed;
+	background-size: cover;
+}
+
+#sectionGeneral div {
+	padding-top: 10px;
+	text-align: center;
+}
+
+#sectionGeneral div img {
+	height: 160px;
+	width: 250px;
+	margin: 0 auto;
+}
+
+#sectionGeneral div h2{
+	margin-top: 0px;
+	font-family: "FGHeavy";
+	font-size: 50px;
+	color: #fff;
+	text-shadow: -1px 1px 0px gray,
+				-2px 2px 0px #005883;
+}
+
+#sectionGeneral div h3{
+	font-family: "FGBook";
+	font-size: 30px;
+	color: #fff;
+}
+
+/*
+Seccion Objetivos Tematicas
+*/
+
+#sectionObjetivos {
+	margin-top: -20px;
+	width: 100%;
+	background: #636363;
+}
+
+#sectionObjetivos div{
+	text-align: center;
+	margin: 0 auto;
+	width: 960px;
+}
+
+
+#sectionObjetivos div h3 {
+	font-family: "FGHeavy";
+	padding: 20px;
+}
+
+#sectionObjetivos div article {
+	display: inline-block;
+	width: 300px;
+	height: 300px;
+}
+
+#sectionObjetivos div article h4{
+	font-family: "FGBook";
+}
+
+#sectionObjetivos div article ul{
+	text-align: left;
+}
+
+#sectionObjetivos div article ul li{
+	font-family: "FGBookItalic"
+}
+
+
+
+/*
+Footer 
+*/
+
+footer{
+	width: 100%;
+	height: 60px;
+}
