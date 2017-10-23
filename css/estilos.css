@@ -103,6 +103,20 @@ Seccion informacion general
 	color: #fff;
 }
 
+#sectionGeneral div ul{
+	font-family: "FGBook";
+	font-size: 30px;
+	color: #fff;
+	text-align: left;
+}
+
+#sectionGeneral div ul a{
+	font-family: "FGBook";
+	font-size: 30px;
+	color: #fff;
+	
+}
+
 /*
 Seccion Objetivos Tematicas
 */
